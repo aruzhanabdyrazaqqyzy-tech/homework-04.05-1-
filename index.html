@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 50px;
+        }
+        .container{
+            width: 80%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            background-color: rgb(32, 32, 32);
+            border-radius: 20px;
+            padding: 10px;
+        }
+        .left{
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+            padding: 30px;
+            align-items: left;
+            align-content: center;
+        }
+        .li{
+            color: white;
+            font-size: 14px;
+            font-family: sans-serif;
+            gap: 10px;
+            display: flex;
+            flex-direction: column;
+            margin-right: 100px;
+        }
+        button{
+            border-radius: 40px;
+            border: none;
+            color: white;
+            padding: 20px;
+            width: 300px;
+            cursor: pointer;
+            background: linear-gradient(120deg , rgb(248, 65, 65) , rgb(255, 95, 191) ,rgb(217, 28, 255)
+            , rgb(65, 65, 255)
+             );
+        }
+        button:hover{
+            transform: translateY(-2px);
+             box-shadow: 0 0 30px rgb(216, 73, 255);
+        }
+        .box{
+            border-radius: 10px;
+            background-color: gray;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            width: 360px;
+            color: white;
+            font-family: sans-serif;
+        }
+        .row{
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+        }
+
+
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <img src="logo.png" alt="logo" width="400px">
+            <img src="teg(1).png" alt="teg" width="400px">
+                <div class="li">
+                    <li>Для 4-х аккаунтов</li>
+                    <li>Без рекламы и интернета</li>
+                    <li>Смотрите на смартфонах, планшетах и телевизорах</li>
+                </div>
+            <button><b>Авторизоваться</b></button>
+        </div>
+        <div class="right">
+            <img src="image.png" alt="image" width="700px" style="border-radius: 25px;">
+        </div>
+    </div>
+    <h1 style="color: white;">Что еще есть в подписке:</h1>
+    <div class="row">
+        <div class="box">
+            <div class="l">
+                <h3>Музыка</h3>
+                <p>Слушайте миллионы треков <br>
+                 в высоком качестве <br>
+                 и без рекламы</p>
+            </div>
+            <div class="r">
+                <img src="icon_1.png" style="border-radius: 100%; width: 60px;">
+            </div>
+        </div>
+         <div class="box">
+            <div class="l">
+                <h3>Яндекс Книги</h3>
+                <p>Читайте и слушайте бетселлеры, <br>
+                 комиксы и аудиокниги </p>
+            </div>
+            <div class="r">
+                <img src="icon_3.png" style="border-radius: 100%; width: 60px;">
+            </div>
+        </div>
+         <div class="box">
+            <div class="l">
+                <h3>Кешбэк с Яндекс Плюс</h3>
+                <p>Получайте кешбэк баллами <br>
+                Плюса в Go,Заправках и Афише </p>
+            </div>
+            <div class="r">
+                <img src="icon_2.png" style="border-radius: 100%; width: 60px;">
+            </div>
+        </div>
+    </div>
+     <button><b>Авторизоваться</b></button>
+    
+</body>
+</html>
